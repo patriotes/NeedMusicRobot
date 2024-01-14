@@ -6,9 +6,9 @@
     "music",
     "music downloader"
   ],
-  "repository": "https://github.com/rozari0/NeedMusicRobot/",
-  "website": "https://t.me/NeedMusicRobot",
-  "success_url": "https://t.me/NeedMusicRobot",
+  "repository": "https://github.com/patriotes/NeedMusicRobot/",
+  "website": "https://t.me/Music_DownloaderBot",
+  "success_url": "https://t.me/Musique_DownloaderBot",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
