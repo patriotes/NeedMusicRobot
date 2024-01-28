@@ -36,10 +36,10 @@ async def start(client, message):
     reply_markup = [
         [
             InlineKeyboardButton(
-                text="Bot Channel", url="https://t.me/TheCrowClub"
+                text="Bot Channel", url="https://t.me/ArchitectePatriotes"
             ),
             InlineKeyboardButton(
-                text="Repo", url="https://github.com/rozari0/NeedMusicRobot"
+                text="Repo", url="https://github.com/patriotes/NeedMusicRobot"
             ),
             InlineKeyboardButton(text="Help", callback_data="helphome"),
         ],
