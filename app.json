@@ -1,12 +1,12 @@
 {
   "name": "You Need Music",
-  "description": "Un simple bot Telegram pour télécharger de la musiqueà.",
-  "keywords": [simple
+  "description": "Un Bot Simple Pour Telecharger De La Musique.",
+  "keywords": [
     "bot",
     "music",
     "music downloader"
   ],
-  "repository": "https://github.com/patriotes/NeedMusicRobot/",
+  "repository": "https://github.com/rozari0/NeedMusicRobot/",
   "website": "https://t.me/Telechargement_MusiqueBOT",
   "success_url": "https://t.me/Telechargement_MusiqueBOT",
   "env": {
