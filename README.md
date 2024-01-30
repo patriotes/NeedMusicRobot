@@ -42,7 +42,7 @@ To deploy this project run
   docker run musicbot
 ```
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/patriotes/MusicDownloader/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/patriotes/NeedMusicRobot/)
 
 ## Environment Variables
 
