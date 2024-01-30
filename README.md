@@ -1,4 +1,3 @@
-
 # Telegram Music Downloader
 A Simple Music Downloader Bot For Telegram with Youtube Music, Spotify & Deezer Support.
 
@@ -43,7 +42,7 @@ To deploy this project run
   docker run musicbot
 ```
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/rozari0/MusicDownloader/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/patriotes/MusicDownloader/)
 
 ## Environment Variables
 
