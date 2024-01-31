@@ -67,11 +67,11 @@ async def start(client, message):
         and message.from_user.id not in SUDO_USERS
     ):
         return await message.reply_text(
-            "This Bot Will Not Work In Groups Unless It's Authorized.",
+            "Ce robot ne fonctionnera pas en groupe sauf s'il est autorisé.",
             reply_markup=InlineKeyboardMarkup(reply_markup),
         )
     return await message.reply_text(
-        f"Hello {message.from_user.first_name}, I'm a Simple Music Downloader Bot. I Currently Support Download from Youtube.",
+        f"Bonjour {message.from_user.first_name}, Je Suis Un Simple Bot Pour Telecharger De La Musique Sur Plusieurs Plateformes.",
         reply_markup=InlineKeyboardMarkup(reply_markup),
     )
 
@@ -114,7 +114,7 @@ async def help(_, message):
     ]
 
     await message.reply_text(
-        f"Hello **{message.from_user.first_name}**, I'm **@NeedMusicRobot**.\nI'm Here to download your music.",
+        f"Bonjour **{message.from_user.first_name}**, I'm **@Musique_DownloaderBot**.\nJe suis ici pour télécharger ta musique.",
         reply_markup=InlineKeyboardMarkup(button),
     )
 
@@ -135,6 +135,6 @@ async def help_home(_, query):
         [InlineKeyboardButton(text=i, callback_data=f"help_{i}")] for i in HELP
     ]
     await query.message.edit(
-        f"Hello **{query.from_user.first_name}**, I'm **@NeedMusicRobot**.\nI'm Here to download your music.",
+        f"Bonjour **{query.from_user.first_name}**, Je Suis, **@Musique_DownloaderBot**.\nJe suis ici pour télécharger ta musique.",
         reply_markup=InlineKeyboardMarkup(button),
     )
